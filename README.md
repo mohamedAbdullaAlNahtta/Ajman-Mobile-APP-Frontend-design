@@ -35,7 +35,6 @@ Powered by ENG Muhammad Abdullah El Nahtta @ Copyright © 2021 All rights reserv
 
 Greeting 
 
-This a very small project to pervent Multiple session login per user using html css javascript jquery bootstrap
 
 ```
 
@@ -53,7 +52,7 @@ This a very small project to pervent Multiple session login per user using html 
 
 # TODO
 
- Adding an interface to control the session count per user 
+
 
 
 
