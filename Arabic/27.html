@@ -43,7 +43,7 @@
         @font-face {
           font-family: GE_SS_Text_UltraLight;
           src: url(Fonts/GE_SS_Text_UltraLight.otf);
-        }
+        }s
         body{
           background: url('img/bg+icons_check in- out.jpg')no-repeat center center fixed; 
           -webkit-background-size: cover;
@@ -56,10 +56,7 @@
           /*background-image: linear-gradient(to bottom, #EEE7D6, #FFFFFF);*/
           font-family: GE_SS_Text_UltraLight;
         }
-        input{
-            background: #E4F0F5;
-        }
-          label{
+        label{
           margin-bottom: 0px;
           margin-top: 0px;
           font-size: 10px;
@@ -67,6 +64,7 @@
           padding-top: 0px;
         }
         .form-control, .input-group-addon, .custom-select{
+          border: 1px solid #696969;
           margin-bottom: 0px;
           margin-top: 0px;
           padding-bottom: 0px;
@@ -116,7 +114,7 @@
     }
     </script>
   </head>
-  <body style="background-color: #fff">
+  <body>
     <!-- Preloader-->
     <div class="preloader" id="preloader">
       <div class="spinner-grow text-secondary" role="status">
@@ -125,7 +123,7 @@
     </div>
     <!-- Header Area-->
     <div id="grad1">
-      <!-- Side Nav Wrapper-->
+        <!-- Side Nav Wrapper-->
         <div id="righ-nav" class="sna-sidenav-wrapper animated bounceInRight slower delay-2s" style="display: none">
           <!-- Sidenav Nav-->
           <ul class="sidenav-nav">
@@ -143,41 +141,34 @@
             <li><a href="">بدون اسم <img width="45px" src="img/بدون اسم 3.png"></a></li>
           </ul>
         </div>
-        <div class="row g-2" style="padding: 18px">
-            <div class="col-12"><a href="6.html"><i class="fa fa-angle-left" style="font-size: 20px;"></i></a><a onclick="myFunctionShow()" href="#"><i class="fa fa-ellipsis-h" style="float: right;font-size: 20px;"></i></a></div>
+        <div class="row g-2" style="padding: 18px;">
+            <div class="col-12">
+                <a href="4.html"><i class="fa fa-angle-left" style="font-size: 20px;"></i></a><a onclick="myFunctionShow()" href="#"><i class="fa fa-ellipsis-h" style="float: right; font-size: 20px;"></i></a>
+            </div>
             <center>
-            <div class="col-12" dir="rtl" style="font-family: GE_SS_Text_UltraLight;color: #000;font-size: 30px"><img src="img/سياسة الخصوصية.png" width="75px" alt="Check In/ Out" />شهادة الراتب</div>
+                <div class="col-12" dir="rtl" style="font-family: GE_SS_Text_UltraLight;color: #000;font-size: 30px"><img src="img/thanks you.png" width="75px" alt="Check In/ Out" />الشكاوى والاقتراحات</div>
             </center>
         </div>
-        <div style="background-color: #fff; height: 100%;border-radius: 35px 35px 0px 0px;">
-          <div class="row g-3" style="padding: 35px; background-color: #fff;border-radius: 35px 35px 0px 0px;">
-               <p style="font-size: 14px;text-align: right; padding-right: : 10px; margin:0px">نوع شهادة الراتب</p>
-              <div style="margin-top:0px" class="input-group animated bounceInUp slower delay-0.5s">
-                    <select class="custom-select col-12" id="inlineFormCustomSelect" style="url(css/custom-select.png) right 0.75rem center no-repeat">
-                        <option value="Salary Certificate">شهاده الراتب</option>
-                    </select>
-              </div>
-              <br>
-               <p style="font-size: 14px;text-align: right; padding-right: : 10px; margin:0px">لغة شهادة الراتب</p>
-              <div style="margin-top:0px" class="input-group animated bounceInUp slower delay-0.5s">
-                    <select class="custom-select col-12" id="inlineFormCustomSelect" style="url(css/custom-select.png) right 0.75rem center no-repeat">
-                        <option value="Arabic-English">عربى</option>
-                    </select>
-              </div>
-              <br>
-               <p style="font-size: 14px;text-align: right; padding-right: : 10px; margin:0px">مقدمة الى</p>
-              <div style="margin-top:0px" class="input-group animated bounceInUp slower delay-0.5s">
-                    <select class="custom-select col-12" id="inlineFormCustomSelect" style="url(css/custom-select.png) right 0.75rem center no-repeat">
-                        <option value="Annual Leave">Abu Dhabi Commercial Bank</option>
-                    </select>
-              </div>
-              <center>
-              <div class="col-9"> <input class="form-control animated bounceInUp slower delay-0.5s" style="background-color: #fff; color: #0ca3a6; border: 1px solid #0ca3a6;" type="submit" value="طلب شهادة">
-              </div>
-              </center>
-          </div>
+        <div class="row g-3" style="background-color: #fff; height: 100%; border-radius: 35px 35px 0px 0px;">
+            <div class="col-12 animated bounceInUp slower delay-0.5s" style="padding: 30px;">
+                <!-- Single Catagory Card-->
+                 <p style="font-size: 14px;text-align: right; padding-right: : 10px; margin:0px">عنوان الرسالة </p>
+                <div class="input-group">
+                    <input type="text" style="text-align: right;" class="form-control" placeholder="Write Subject Here" />
+                </div>
+                <br>
+                 <p style="font-size: 14px;text-align: right; padding-right: : 10px; margin:0px">محتوى الرساة </p>
+                <div class="form-group">
+                    <textarea class="form-control" rows="10" style="text-align: right;">Ullamco sit aliquip consectetur esse mollit mollit et occaecat cillum elit deserunt ullamco dolor in. Dolore excepteur id ut dolore enim amet et esse cillum commodo id. Et in sed sunt officia ut ad sint dolore deserunt magna laboris commodo id reprehenderit dolor officia. Minim est laboris labore ex dolore in culpa duis minim dolore in ut cupidatat sed reprehenderit ullamco consequat aliqua.</textarea>
+                </div>
+                <br />
+                <center>
+                    <input class="form-control animated bounceInUp slower delay-0.5s" style="background-color: #0ca3a6; color: #fff;" type="submit" value="ارسال" />
+                </center>
+            </div>
         </div>
     </div>
+
     
 
 
